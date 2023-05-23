@@ -1,0 +1,86 @@
+/* Write your CSS here */
+.container {
+  background-image: linear-gradient(to bottom, #fbc7d4, #8796f0);
+  min-height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 50px;
+}
+.container2 {
+  background-color: #ffffff;
+  padding: 50px;
+  border-radius: 10px;
+}
+h1 {
+  font-size: 42px;
+  font-weight: 700;
+}
+.content {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.title-input {
+  font-family: 'Roboto';
+  font-size: 16px;
+  height: 40px;
+  border: 1px solid #cbd2d9;
+  border-radius: 4px;
+  margin-bottom: 12px;
+  padding-left: 16px;
+  padding-top: 8px;
+  padding-bottom: 8px;
+  outline: none;
+  min-width: 260px;
+}
+button {
+  border-radius: 10px;
+  border-width: 0px;
+  color: #ffffff;
+  padding: 8px;
+  background-color: #171f46;
+  font-size: 18px;
+}
+.img {
+  width: 280px;
+  margin-left: 40px;
+  height: 200px;
+  margin-bottom: 20px;
+}
+.btn {
+  background-color: transparent;
+  border-color: #9897f0;
+  border-radius: 7px;
+  color: #8796f0;
+  border-style: solid;
+  border-width: 1px;
+  font-size: 12px;
+  padding: 4px;
+}
+.appointment {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.unorder {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  flex-wrap: wrap;
+  max-width: 900px;
+}
+.stared-btn {
+  background-color: #8796f0;
+  border-color: #9897f0;
+  border-radius: 7px;
+  color: #ffffff;
+  border-style: solid;
+  border-width: 1px;
+  font-size: 12px;
+  padding: 4px;
+}
+.app {
+  font-size: 25px;
+  font-weight: 600;
+}

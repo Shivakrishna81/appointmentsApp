@@ -1,0 +1,32 @@
+/* Write your CSS here */
+.listItem {
+  list-style: none;
+  border-radius: 7px;
+  border-width: 1px;
+  border-style: solid;
+  border-color: #b5b7c4;
+  background-color: #ffffff;
+  box-shadow: 1px 1px 1px 1px #b5b7c4;
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+  min-width: 200px;
+  padding: 14px;
+  padding-top: 0px;
+  padding-bottom: 0px;
+  margin-right: 12px;
+  margin-top: 12px;
+}
+.star-img {
+  height: 17px;
+  width: 17px;
+  margin-top: 15px;
+}
+.title-t {
+  font-size: 18px;
+  font-weight: 600;
+}
+.str-btn {
+  background-color: transparent;
+  border-width: 0px;
+}
